@@ -1,0 +1,15 @@
+C:\Users\wolfy\Downloads\Bootcamp\task004\bin\Debug\net7.0\task004.exe
+C:\Users\wolfy\Downloads\Bootcamp\task004\bin\Debug\net7.0\task004.deps.json
+C:\Users\wolfy\Downloads\Bootcamp\task004\bin\Debug\net7.0\task004.runtimeconfig.json
+C:\Users\wolfy\Downloads\Bootcamp\task004\bin\Debug\net7.0\task004.dll
+C:\Users\wolfy\Downloads\Bootcamp\task004\bin\Debug\net7.0\task004.pdb
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.csproj.AssemblyReference.cache
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.AssemblyInfoInputs.cache
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.AssemblyInfo.cs
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.csproj.CoreCompileInputs.cache
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.dll
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\refint\task004.dll
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.pdb
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\task004.genruntimeconfig.cache
+C:\Users\wolfy\Downloads\Bootcamp\task004\obj\Debug\net7.0\ref\task004.dll
