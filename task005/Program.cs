@@ -6,10 +6,10 @@ using static Infrastructure;
 // SortSelection(array);
 // Show(array);
 
-10.CreateArray(min:10, max: 30)
-    .Show(", ")
+int[] arr = 10.CreateArray(min: 10, max: 30)
+    .Show()
     .SortSelection()
-    .Show(",");
+    .Show();
 
 // double res = 2.Pow(10);
 // Console.WriteLine(res);
