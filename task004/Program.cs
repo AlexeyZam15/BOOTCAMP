@@ -1,4 +1,4 @@
-﻿using System;
+﻿// Сложности алгоритмов.
 // 1. Константы O(1)
 // const int x = 5;
 // Console.WriteLine(x);
