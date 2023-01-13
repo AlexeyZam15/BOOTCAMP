@@ -20,15 +20,17 @@ public static class Infrastructure
   /// <summary>
   /// Вывод массива в консоль
   /// </summary>
+  /// <param name="title">Текст перед выводом массива</param>
   /// <param name="array">Исходный массив</param>
   /// <param name="separator">Символ-разделитель элементов массива</param>
   /// <returns>Исходный массив</returns>
-  public static int[] Show(this int[] array, string separator = ",")
-  {
-    string output = Join(separator, array);
-    WriteLine($"[{output}]");
-    return array;
-  }
+  public static int[] Show(this int[] array, string title = "", string separator = ",")
+    {
+        Write(title);
+        string output = Join(separator, array);
+        WriteLine($"[{output}]");
+        return array;
+    }
 
   /// <summary>
     /// Заполнение массива
@@ -43,5 +45,15 @@ public static class Infrastructure
             array[i] = Convert.ToInt32(Console.ReadLine());
         }
         return array;
+    }
+    /// <summary>кто
+    /// Запрос на ввод числа
+    /// </summary>
+    /// <returns>Целое число</returns>
+    public static int CountInput(string text = "Введите кол-во элементов массива: ")
+    {
+        Console.Write(text);
+        int n = Convert.ToInt32(Console.ReadLine());
+        return n;
     }
 }

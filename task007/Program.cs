@@ -1,7 +1,9 @@
-﻿using static Sorting;
+﻿using static Infrastructure;
+using static Sorting;
 
-int size = 100;
+int size = CountInput();
 var arr = size.CreateArray()
-            .Show()
+            // .FillArray()
+            .Show(title: "Начальный массив: ")
             .SortQuick(0, size - 1)
-            .Show();
+            .Show(title: "Конечный массив:  ");
