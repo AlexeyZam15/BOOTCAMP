@@ -4,6 +4,7 @@ public static class Sorting
     {
         int left = 0,
             right = collection.Length - 1;
+            
         int count = 1;
         while (left < right)
         {
@@ -30,7 +31,7 @@ public static class Sorting
                 if (collection[i - 1] > collection[i])
                 {
                     if (log == true)
-                        Console.WriteLine($"[{string.Join(", ", collection)}]| {collection[i - 1]}>{collection[i]} | {collection[i - 1]}<->{collection[i]}");
+                        Console.WriteLine($"[{string.Join(", ", collection)}]| {collection[i - 1]}>{collection[i]}  | {collection[i - 1]}<->{collection[i]}");
                     int t = collection[i - 1];
                     collection[i - 1] = collection[i];
                     collection[i] = t;
