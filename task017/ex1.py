@@ -64,7 +64,7 @@ def clone(value):
 # функция турнирного отбора
 
 
-def selTournametnt(population, p_len):
+def selTournament(population, p_len):
     offspring = []
     for n in range(p_len):
         i1 = i2 = i3 = 0
@@ -98,7 +98,7 @@ fitnessValues = [individual.fitness.values[0] for individual in population]
 
 while max(fitnessValues) < ONE_MAX_LENGTH and generationCounter < MAX_GENERATIONS:
     generationCounter += 1
-    offspring = selTournametnt(population, len(population))
+    offspring = selTournament(population, len(population))
     offspring = list(map(clone, offspring))
 
 # выбираем чётную и нечётную особь и формируем потомков - скрещивание
@@ -135,5 +135,5 @@ plt.plot(maxFitnessValues, color='red')
 plt.plot(meanFitnessValues, color='green')
 plt.xlabel('Поколение')
 plt.ylabel('Макс/средняя приспособленность')
-plt.title('Зависимость максимальной и средней приспобленности от поколения')
+plt.title('Зависимость максимальной и средней приспособленности от поколения')
 plt.show()
