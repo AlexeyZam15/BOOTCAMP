@@ -1,0 +1,29 @@
+<!-- Наследование -->
+{% extends 'base.html'%}
+
+{% block content %}
+
+{% if form %}
+<form action="" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.name.label }}
+    {{ form.name() }}
+    <br>
+    {{ form.email.label }}
+    {{ form.email() }}
+    <br>
+    {{ form.password.label }}
+    {{ form.password() }}
+    <br>
+    {{ form.password_again.label }}
+    {{ form.password_again() }}
+    <br>
+    {{ form.submit() }}
+    {% endif %}
+    {% if not form %}
+    <a href="/log">Авторизация</a>
+    {% endif %}
+    {{ message }}
+    {% endblock %}
+</form>
